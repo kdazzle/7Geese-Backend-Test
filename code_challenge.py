@@ -10,7 +10,7 @@ def main():
 def determine_palindrome(number):
     """
     Determine whether the given number is a palindrome. If it isn't, then find
-    the closest palindrome.
+    the closest palindrome. Prints the results.
     """
     if is_palindrome(number):
         print("Yes, {} is a palindrome.".format(number))
