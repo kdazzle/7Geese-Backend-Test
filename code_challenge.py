@@ -32,7 +32,7 @@ def is_palindrome(number):
     """
     The definition of a palindromic number is from [1] and includes all natural
     numbers and 0. For simplicity, I am assuming that base 10 numbers are the
-    only type to be tested.
+    only type to be tested (as opposed to, say, hexadecimal numbers).
 
     [1]: http://en.wikipedia.org/wiki/Palindromic_number
 
