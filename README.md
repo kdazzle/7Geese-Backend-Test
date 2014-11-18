@@ -4,6 +4,9 @@
 Determine whether a number is a palindrome. If the number is not a palindrome,
 then print out the closest palindrome(s).
 
+A palindromic number is defined in this Wikipedia article:
+http://en.wikipedia.org/wiki/Palindromic_number
+
 
 ##Run the program
 
