@@ -12,9 +12,7 @@ def determine_palindrome(number):
     Determine whether the given number is a palindrome. If it isn't, then find
     the closest palindrome.
     """
-    is_a_palindrome = is_palindrome(number)
-
-    if is_a_palindrome:
+    if is_palindrome(number):
         print("Yes, {} is a palindrome.".format(number))
     else:
         print("No {} isn't a palindrome.".format(number))
@@ -111,7 +109,15 @@ def parse_arguments():
 
 
 def print_help_text():
-    print("use -n or --number")
+    print("""
+    Lets you know whether a given number is a palindrome. If it isn't, then
+    the closest palindrome(s) will be printed.
+
+    Example usage: $ python ./code_challenge -n 121
+
+        -n      --number        is this number a palindrome?
+        -h      --help          display this message
+    """)
 
 
 if __name__ == "__main__":
