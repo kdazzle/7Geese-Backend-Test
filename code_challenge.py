@@ -57,11 +57,10 @@ def is_palindrome(number):
 
 def find_closest_palindrome(lesser_number, greater_number):
     """
-    Searches for the closest palindrome to the given number and prints out its
-    findings.
+    Searches for the closest palindrome(s) to the given number.
 
-    :return tuple: a palindrome less than the given number, and a palindrome
-    that is greater
+    :return tuple (int|None, int|None): a palindrome less than the given number,
+     and a palindrome that is greater
     """
     is_lesser_palindrome = False
     is_greater_palindrome = False
